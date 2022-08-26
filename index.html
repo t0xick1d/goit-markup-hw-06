@@ -55,6 +55,50 @@
                   <use href="./img/vector-defs.svg#icon-Vector-2"></use>
                 </svg>
               </button>
+              <form class="form">
+                <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
+                <div class="form-field">
+                  <label for="name">Ім'я</label>
+                  <div class="form-input-svg">
+                    <input type="text" name="name" id="name">
+                    <svg>
+                      <use href="./img/form-modal.svg#icon-person"></use>
+                    </svg>                    
+                  </div>
+                </div>
+                <div class="form-field">
+                  <label for="tel">Телефон</label>
+                  <div class="form-input-svg">
+                    <input type="tel" name="tel" id="tel">
+                    <svg>
+                      <use href="./img/form-modal.svg#icon-phone"></use>
+                    </svg>                    
+                  </div>
+                </div>
+                <div class="form-field">
+                  <label for="email">Почта</label>
+                   <div class="form-input-svg">
+                    <input type="text" name="email" id="email">
+                    <svg>
+                      <use href="./img/form-modal.svg#icon-email"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="form-field">
+                  <label for="coment">Коментар</label>
+                  <textarea name="" id="coment" placeholder="Введіть текст"></textarea>
+                </div>
+                <div class="form-field">
+                  <button type="submit" class="form-filed-submit">
+                    Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a>
+                  </button>                    
+                </div>
+                <div class="form-field">
+                  <button type="button" class="form-filed-button">
+                    Відпрвити
+                  </button>                    
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -356,6 +400,18 @@
           </li>
         </ul>
       </div>
+      <form class="form-footer">
+        <h2>Підпишіться на розсилку</h2>
+        <div class="form-input-button">
+          <input type="text" placeholder="E-mail">
+          <button>
+            <spam class="footer-form-button-text">Підписатись</spam>
+            <svg class="form-icon-footer">
+              <use href="./img/telegram.svg#icon-send"></use>
+            </svg>
+          </button>          
+        </div>
+      </form>
     </div>
   </footer>
 </body>
