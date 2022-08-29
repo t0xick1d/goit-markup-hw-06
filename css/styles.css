@@ -331,6 +331,7 @@ a {
 .form-filed-button{
   margin: 0 auto;
   padding: 10px 52px;
+  cursor: pointer;
   
   max-width: 200px;
   height: 50px;
@@ -404,6 +405,14 @@ a {
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
 }
+
+.form-field:hover .form-input-svg{
+  fill: var(--accent-color);
+}
+.form-field:focus-within .form-input-svg{
+  fill: var(--accent-color);
+}
+
 .form-input-svg:hover{
   fill: var(--accent-color);
 }
@@ -703,6 +712,12 @@ a {
 }
 .form-input-button{
   display: flex;
+}
+.footer-input-email{
+
+}
+.footer-input-email:focus-within{
+  border: 1px solid var(--primary-white-color);
 }
 .form-footer button{
   width: 200px;
